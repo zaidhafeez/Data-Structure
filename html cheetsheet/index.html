@@ -35,5 +35,82 @@
                 <li>List Item3</li>
                 <li>List Item4</li>
             </ol>
+
+            <!-- Table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>zaid</td>
+                        <td>zaid.smthng@gmail.com</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>hafeez</td>
+                        <td>hafeez.smthng@gmail.com</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>mohammad</td>
+                        <td>mohammad.smthng@gmail.com</td>
+                        <td>17</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <hr>
+            <br>
+
+            <!-- Form -->
+            <form action="process.php" method="POST">
+                <div>
+                    <label for="">First Name</label>
+                    <input type="text" name="firstName" placeholder="Enter First NAme">
+                </div>
+                <br>
+                <div>
+                    <label for="">Last Name</label>
+                    <input type="text" name="lastName">
+                </div>
+                <br>
+                <div>
+                    <label for="">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <br>
+                <div>
+                    <label for="">message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="">Gender</label>
+                    <select>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="">Age</label>
+                    <input type="number" name="age" value="30">
+                </div>
+                <br>
+                <div>
+                    <label for="">Birthday</label>
+                    <input type="date" name="birthday">
+                </div>
+                <br>
+            </form>
+
+            <div style="margin-top: 500px"></div>
     </body>
 </html>
