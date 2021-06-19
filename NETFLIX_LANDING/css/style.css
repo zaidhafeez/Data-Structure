@@ -117,7 +117,7 @@ img{
 .tabs .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -141,12 +141,68 @@ img{
     border-bottom: var(--primary-color) 4px solid;
 }
 
+/* Tab-content */
+
+.tab-content{
+    padding: 3rem 0;
+    background: #000;
+    color: #fff;
+}
+
+#tab-1-content .tab-1-content-inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#tab-2-content .tab-2-content-top{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#tab-2-content .tab-2-content-bottom{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* container */
 .container{
     width: 70%;
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
+}
+
+/* text styles */
+
+.text-xl{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    /* color: #fff; */
+}
+
+.text-lg{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;    
+    /* color: #fff; */
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-dark{
+    color: #999;
 }
 
 
