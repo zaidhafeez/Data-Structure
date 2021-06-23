@@ -95,5 +95,16 @@ ul{
 }
 
 .showcase .btn{
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+/* Home Cards */
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.home-cards img{
+    width: 100%;
 }
