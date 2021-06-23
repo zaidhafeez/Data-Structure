@@ -198,3 +198,7 @@ ul{
     align-items: flex-start;
     justify-content: center;
 }
+
+.links li{
+    line-height: 2.8;
+}
