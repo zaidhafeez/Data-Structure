@@ -227,12 +227,12 @@ ul{
     align-items: center;
     justify-content: space-between;
 }
-
+/* 
 .footer div{
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-}
+} */
 
 .footer div i{
     margin-right: 10px;
