@@ -1,6 +1,6 @@
-const c = "zaid" //constant
+const c = "zaid12" //constant
 console.log(typeof c); // know the type of data
-let num = 4 // create the variable 
+let num = 41 // create the variable 
 console.log(num);
 
 num = 1091910102939040403n // where n is donated the BigInt
