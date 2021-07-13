@@ -9,7 +9,7 @@ console.log(num);
 let bool = 5 < 6
 console.log(bool)
 
-num = Number("123") //Explicit conversion
+num = Number("12345") //Explicit conversion
 console.log(num, typeof num);
 
 let x
@@ -28,5 +28,5 @@ console.log(x, typeof x); // type coercion //implicit conversion //string
 x = +x + 2
 console.log(x, typeof x); // type coercion //implicit conversion //number unary operator
 
-x = parseInt("123 Navin") // convert a string into number but remember first character will not be character
+x = parseInt("123 Navin12345") // convert a string into number but remember first character will not be character
 console.log(x);
