@@ -15,3 +15,50 @@ let num = 4
 // let result = Math.pow(4, 3)
 let result = 4 ** 3 // same as power
 console.log(result);
+
+// relational operator
+console.log(5 < 6);
+
+let x = "Pen"
+let y = "Book"
+
+let data = x <= y // compare ASCII code
+
+console.log(data);
+let a = "2"
+let b = 1
+
+let datab = x <= y // first convert into num the compare
+
+console.log(data);
+
+// for == operator convert into type
+let f = "2"
+let g = 3
+
+let datae = f === g // strcly equality operator
+console.log(datae);
+
+f = " "
+g = false
+
+datae = f === g // strcly equality operator
+console.log(datae);
+
+f = 7 , g = 8, h = 9
+
+datae = f < g && f < h
+datae = f < g || f < h
+
+console.log("a " + datae);
+
+// conditional statement
+
+let num12 = 5
+let num21 = 6
+
+let result1 = num12 < num21
+
+if(result1)
+    console.log("hii,,,");
+
