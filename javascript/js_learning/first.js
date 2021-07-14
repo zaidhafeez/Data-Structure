@@ -1,13 +1,14 @@
-const c = "zaid123" //constant
+const c = "zaid12356" //constant
 console.log(typeof c); // know the type of data
 let num = 413 // create the variable 
 console.log(num);
 
 num = 1091910102939040403n // where n is donated the BigInt
 console.log(num);
-
-let bool = 5 < 6
+let bool = 5 < 8;
+let bool1= true;
 console.log(bool)
+
 
 num = Number("12345") //Explicit conversion
 console.log(num, typeof num);
