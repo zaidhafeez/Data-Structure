@@ -60,5 +60,5 @@ let num21 = 6
 let result1 = num12 < num21
 
 if(result1)
-    console.log("hii,,,");
+    console.log("hii,,,,,");
 
