@@ -60,10 +60,8 @@ let num21 = 6
 let result1 = num12 < num21
 
 if(result1)
-<<<<<<< HEAD
     console.log("hii,,,,,");
 
-=======
     console.log("hii,,,");
 // ternary op.
 
@@ -95,4 +93,3 @@ switch(day){
     default:
         console.log("&am watch");
 }
->>>>>>> 34fabf573ad79113146d400831eaf3748108c06e
