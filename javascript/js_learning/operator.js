@@ -60,5 +60,39 @@ let num21 = 6
 let result1 = num12 < num21
 
 if(result1)
+<<<<<<< HEAD
     console.log("hii,,,,,");
 
+=======
+    console.log("hii,,,");
+// ternary op.
+
+let nmbr = 5;
+let resultget;
+
+result = nmbr % 2 === 0 ? "Even" : "odd";
+console.log("resultget " + result);
+
+// switch statemnet
+let day = "Wednesday";
+
+switch(day){
+    case "Monday" :
+        console.log("7am");
+        break;
+    case "Tuesday" :
+    case "Wednesday" :
+    case "Thusday" :
+        console.log("4am");
+        break;
+    case "Friday" :
+        console.log("9am");
+        break;
+    case "Saturday" :
+    case "Sunday" :
+        console.log("8am");
+        break;
+    default:
+        console.log("&am watch");
+}
+>>>>>>> 34fabf573ad79113146d400831eaf3748108c06e
