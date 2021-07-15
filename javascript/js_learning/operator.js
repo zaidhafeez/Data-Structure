@@ -1,78 +1,118 @@
-// // Arithmetic operator
-// let num1 = 4
-// let num2 = 6
-// let result = num1 % num2
+// // // Arithmetic operator
+// // let num1 = 4
+// // let num2 = 6
+// // let result = num1 % num2
+// // console.log(result);
+
+// // num1 = true
+// // num2 = true
+// // result = num1 + num2 // this + operator convert this into number // type coercion
+// // console.log(result);
+
+
+
+// let num = 4
+// // let result = Math.pow(4, 3)
+// let result = 4 ** 3 // same as power
 // console.log(result);
 
-// num1 = true
-// num2 = true
-// result = num1 + num2 // this + operator convert this into number // type coercion
-// console.log(result);
+// // relational operator
+// console.log(5 < 6);
 
+// let x = "Pen"
+// let y = "Book"
 
+// let data = x <= y // compare ASCII code
 
-let num = 4
-// let result = Math.pow(4, 3)
-let result = 4 ** 3 // same as power
-console.log(result);
+// console.log(data);
+// let a = "2"
+// let b = 1
 
-// relational operator
-console.log(5 < 6);
+// let datab = x <= y // first convert into num the compare
 
-let x = "Pen"
-let y = "Book"
+// console.log(data);
 
-let data = x <= y // compare ASCII code
+// // for == operator convert into type
+// let f = "2"
+// let g = 3
 
-console.log(data);
-let a = "2"
-let b = 1
+// let datae = f === g // strcly equality operator
+// console.log(datae);
 
-let datab = x <= y // first convert into num the compare
+// f = " "
+// g = false
 
-console.log(data);
+// datae = f === g // strcly equality operator
+// console.log(datae);
 
-// for == operator convert into type
-let f = "2"
-let g = 3
+// f = 7 , g = 8, h = 9
 
-let datae = f === g // strcly equality operator
-console.log(datae);
+// datae = f < g && f < h
+// datae = f < g || f < h
 
-f = " "
-g = false
+// console.log("a " + datae);
 
-datae = f === g // strcly equality operator
-console.log(datae);
+// // conditional statement
 
-f = 7 , g = 8, h = 9
+// let num12 = 5
+// let num21 = 6
 
-datae = f < g && f < h
-datae = f < g || f < h
+// let result1 = num12 < num21
 
-console.log("a " + datae);
+// if(result1)
+//     console.log("hii,,,,,");
 
-// conditional statement
+//     console.log("hii,,,");
+// // ternary op.
 
-let num12 = 5
-let num21 = 6
+// let nmbr = 5;
+// let resultget;
 
-let result1 = num12 < num21
+// result = nmbr % 2 === 0 ? "Even" : "odd";
+// console.log("resultget " + result);
 
-if(result1)
-    console.log("hii,,,,,");
+// // switch statemnet
+// let day = "Wednesday";
 
-    console.log("hii,,,");
-// ternary op.
+// switch(day){
+//     case "Monday" :
+//         console.log("7am");
+//         break;
+//     case "Tuesday" :
+//     case "Wednesday" :
+//     case "Thusday" :
+//         console.log("4am");
+//         break;
+//     case "Friday" :
+//         console.log("9am");
+//         break;
+//     case "Saturday" :
 
-let nmbr = 5;
-let resultget;
+//     case "Funday" :
+//         console.log("9am");
+//     case "Sunday" :
+//         console.log("122am");
+//         break;
+//     default:
+//         console.log("10am watch");
+// }
+// template literal
 
-result = nmbr % 2 === 0 ? "Even" : "odd";
-console.log("resultget " + result);
+// let num1  = 9;
+// let num2 = 4;
+// let result = num1 + num2;
+// console.log(`The addition of ${num1} and ${num2} is ${result}`);//backtick``
+// let i = 10;
+// do{
+//     console.log("Hi..");
+//     i++;
+// }while(i <= 5);
 
-// switch statemnet
-let day = "Wednesday";
+// for(let i = 1; i <= 5; i++){
+//     console.log("yess", i);
+// }
+let num = 567832;
+let revDig = 0;
 
 switch(day){
     case "Monday" :
@@ -93,3 +133,12 @@ switch(day){
     default:
         console.log("2am watch");
 }
+while(num > 0){
+    let lsd = num % 10;
+    console.log(lsd);
+    num = parseInt(num / 10);
+    
+    revDig = revDig * 10 + lsd; 
+    
+}
+console.log(revDig);
