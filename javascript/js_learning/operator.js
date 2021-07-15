@@ -141,4 +141,4 @@ while(num > 0){
     revDig = revDig * 10 + lsd; 
     
 }
-console.log(revDig);
+console.log(123);
