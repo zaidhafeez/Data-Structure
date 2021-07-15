@@ -91,5 +91,5 @@ switch(day){
         console.log("9am");
         break;
     default:
-        console.log("10am watch");
+        console.log("2am watch");
 }
