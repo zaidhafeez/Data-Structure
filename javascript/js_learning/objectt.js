@@ -33,12 +33,26 @@ let alien = {
 delete alien.tech // delete keyword which is provided by js its delete the object property
 // console.log(alien);
 
-for(let key in alien){
-    // console.log(key);
-    console.log(key, alien[key]);
+// for(let key in alien){
+//     // console.log(key);
+//     // console.log(key, alien[key]);
+//     console.log(key, alien[key])
 
-    // for(let key1 in alien[key]){
-    //     console.log(key1);
-    // }
+//     // for(let key1 in alien[key]){
+//     //     console.log(key1);
+//     // }
     
+// }
+
+// Function
+
+function greet(user){
+
+    return `Hello ${user}`;
+
 }
+
+let user = 'Zaid';
+
+let str = greet(user);
+console.log(str);
