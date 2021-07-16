@@ -102,8 +102,26 @@ delete alien.tech // delete keyword which is provided by js its delete the objec
 // }
 // console.log(greet());
 
-let add = (num1 , num2) => num1 + num2; // when assigning in the variable we use arrow fctn
-let sum = add;
-let res = add(5, 6);
-console.log(res);
-console.log(sum);
+// let add = (num1 , num2) => num1 + num2; // when assigning in the variable we use arrow fctn
+// let sum = add;
+// let res = add(5, 6);
+// console.log(res);
+// console.log(sum);
+// let add = (num1 , num2) => num1 + num2; // when assigning in the variable we use arrow fctn
+// let sum = add;
+// let res = add(5, -3);
+// console.log(-res);
+// console.log(sum);
+
+let laptop = {
+    cpu : 'i9',
+    ram: '4gb',
+    brand: 'Hp',
+
+    greet: function(){
+        console.log("HelloWorld");
+    }
+}
+
+laptop.greet();
+// console.log(laptop);
