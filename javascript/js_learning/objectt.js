@@ -125,7 +125,7 @@ let laptop1 = {
 }
 
 laptop2.getConfig();
-let laptop1 = {
+let laptop2 = {
     cpu : 'i9',
     ram: '4gb',
     brand: 'Hp',
