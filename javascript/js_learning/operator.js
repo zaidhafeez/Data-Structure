@@ -141,4 +141,8 @@ while(num > 0){
     revDig = revDig * 10 + lsd; 
     
 }
+<<<<<<< HEAD
 console.log(123);
+=======
+console.log(revDig23);
+>>>>>>> yes
