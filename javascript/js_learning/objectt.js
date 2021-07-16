@@ -113,15 +113,28 @@ delete alien.tech // delete keyword which is provided by js its delete the objec
 // console.log(-res);
 // console.log(sum);
 
-let laptop = {
+let laptop1 = {
     cpu : 'i9',
     ram: '4gb',
     brand: 'Hp',
 
-    greet: function(){
-        console.log("HelloWorld");
-    }
+    getConfig: function(){
+
+        console.log(this.cpu);
+    } // methods
 }
 
-laptop.greet();
+laptop2.getConfig();
+let laptop1 = {
+    cpu : 'i9',
+    ram: '4gb',
+    brand: 'Hp',
+
+    getConfig: function(){
+
+        console.log(this.cpu);
+    } // methods
+}
+
+laptop2.getConfig();
 // console.log(laptop);
