@@ -174,3 +174,70 @@ delete alien.tech // delete keyword which is provided by js its delete the objec
 
 laptop1.compare(laptop2);
 
+ // CONSTRUCTOR
+
+function Alien(name, tech){
+    this.name = name;
+    this.tech = tech;
+
+    this.work = function work(){
+        console.log("This is inside constructor");
+    }
+}
+
+let alien1 = new Alien('Zaid', 'Java');
+let alien2 = new Alien('Zeeshan', 'Android')
+
+alien1.tech = 'Blockchain';
+
+console.log(alien1);
+console.log(alien2);
+
+alien1.work();
+alien2.work();
+
+// Array;
+// let values = new Array();
+
+let values = [5,9];
+values[2] = 7
+// one way to assign values to array
+// values.push(5);
+// values.push(7);
+
+console.log(values);
+
+let data = ['Zaid', 25, {tech: 'Java', education: 'MCA'}, () => {console.log("Hello World");}];
+
+console.log(data);
+
+data[3]();
+
+// array methods
+
+let data1 = [5, 7, 8, 9, 4];
+// console.log(data1.push(2));
+// console.log(data1.pop());
+
+// console.log(data1.shift());
+// console.log(data1.unshift(3));
+// console.log(data1.splice(2));
+// console.log(data1.splice(2, 1));
+console.log(data1.splice(2, 2, 11, 15));
+console.log(data1.push(3,1));
+
+console.log(data1);
+
+let nums = [];
+nums[0] = 5;
+nums[99] = 9;
+// for (let n  of nums)
+//     console.log(n);
+
+for(let key in nums)
+    console.log(nums[key]);
+
+
+
+
+
