@@ -44,7 +44,7 @@ delete alien.tech // delete keyword which is provided by js its delete the objec
     
 // }
 
-// Function
+    // Function
 
 // function greet(user){
 
@@ -82,7 +82,9 @@ delete alien.tech // delete keyword which is provided by js its delete the objec
 
 // let str = greet(user);
 // console.log(str);
-// Default variable, Local Variable, Global variable
+
+       // Default variable, Local Variable, Global variable
+
 // function add(num1, num2, num3 = 1) // num1, num2, and num3 are parameters
 // {
 //     // num3 = 1 default value when we dont pass argument any argument in vwill print the default value
@@ -113,28 +115,62 @@ delete alien.tech // delete keyword which is provided by js its delete the objec
 // console.log(-res);
 // console.log(sum);
 
-let laptop1 = {
-    cpu : 'i9',
-    ram: '4gb',
-    brand: 'Hp',
+// let laptop1 = {
+//     cpu : 'i9',
+//     ram: '4gb',
+//     brand: 'Hp',
 
-    getConfig: function(){
+//     getConfig: function(){
 
-        console.log(this.cpu);
-    } // methods
-}
+//         console.log(this.cpu);
+//     } // methods
+// }
 
-laptop2.getConfig();
-let laptop2 = {
-    cpu : 'i9',
-    ram: '4gb',
-    brand: 'Hp',
+// laptop1.getConfig();
+// let laptop2 = {
+//     cpu : 'i9',
+//     ram: '4gb',
+//     brand: 'Hp',
 
-    getConfig: function(){
+//     getConfig: function(){
 
-        console.log(this.cpu);
-    } // methods
-}
+//         console.log(this.cpu);
+//     } // methods
+// }
 
-laptop2.getConfig();
+// laptop2.getConfig();
 // console.log(laptop);
+
+   // THIS KEYWORD 
+   let laptop1 = {
+    cpu : 'i8',
+    ram: '4gb',
+    brand: 'Hp',
+
+    compare: function(other){
+        if(this.cpu > other.cpu)
+            console.log(this);
+        else
+            console.log(other);
+    },
+
+    getConfig: function(){
+
+        console.log(this.cpu);
+    } // methods
+}
+
+
+    let laptop2 = {
+        cpu : 'i9',
+        ram: '4gb',
+        brand: 'apple',
+
+        getConfig: function(){
+
+            console.log(this.cpu);
+        } // methods
+    }
+
+laptop1.compare(laptop2);
+
