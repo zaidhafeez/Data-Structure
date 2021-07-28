@@ -46,13 +46,13 @@ delete alien.tech // delete keyword which is provided by js its delete the objec
 
 // Function
 
-function greet(user){
+function greet(user3){
 
     return `Hello ${user}`;
 
 }
 
-let user = 'Zaid';
+let user3 = 'Zaid';
 
 let str = greet(user);
 console.log(str);
