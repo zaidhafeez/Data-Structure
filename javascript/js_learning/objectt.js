@@ -46,11 +46,7 @@ delete alien.tech // delete keyword which is provided by js its delete the objec
 
     // Function
 
-<<<<<<< HEAD
-function greet(user3){
-=======
 // function greet(user){
->>>>>>> f45a7ee162f911641014a75b8aea322711dc7318
 
 //     return `Hello ${user}`;
 
@@ -189,9 +185,6 @@ function Alien(name, tech){
     }
 }
 
-<<<<<<< HEAD
-let user3 = 'Zaid';
-=======
 let alien1 = new Alien('Zaid', 'Java');
 let alien2 = new Alien('Zeeshan', 'Android')
 
@@ -247,5 +240,4 @@ for(let key in nums)
 
 
 
->>>>>>> f45a7ee162f911641014a75b8aea322711dc7318
 
